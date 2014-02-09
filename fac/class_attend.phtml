@@ -64,7 +64,7 @@ if ($row = mysql_fetch_array($result)) {
 <?php
 if (array_key_exists('save', $_POST)) 
 {
-    include 'new_fub_backup.php';
+    include 'functions.php';
     $from = $_POST["from"];
     $till = $_POST["till"];
     $c_id = $_GET["id"];
